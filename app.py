@@ -154,10 +154,8 @@ def incrementer():
     	msg = "Cartão invalido"
     	retorna = f"#Reprovada -> {lista} Retorno: <span class='text-primary'>『 {msg} 』❌</span> => <span class='text-warning'>@perryzin</span><br>"
     return retorna 
-
-
-app.run()
-
+if __name__ == "__main__":
+	app.run()
 
 
 
